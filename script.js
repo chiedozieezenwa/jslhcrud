@@ -33,10 +33,18 @@ function renderTasks() {
     const editButton = document.createElement('button');
     editButton.textContent = 'Edit';
     editButton.addEventListener('click', () => editTask(index));
+    editButton.style.backgroundColor = "blue"
+    editButton.style.color = "white"
+    editButton.style.border = "none"
+    editButton.style.borderRadius = "10px"
 
     const deleteButton = document.createElement('button');
     deleteButton.textContent = 'Delete';
     deleteButton.addEventListener('click', () => deleteTask(index));
+    deleteButton.style.backgroundColor = "red"
+    deleteButton.style.color = "white"
+    deleteButton.style.border = "none"
+    deleteButton.style.borderRadius = "10px"
 
     actionsDiv.appendChild(editButton);
     actionsDiv.appendChild(deleteButton);

@@ -20,9 +20,16 @@
       width: 80%;
       padding: 10px;
       margin-right: 10px;
+      border-radius: 10px;
     }
     button {
       padding: 10px;
+    }
+    #addbtn {
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 10px;
     }
     ul {
       list-style: none;
